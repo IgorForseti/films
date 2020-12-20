@@ -1,0 +1,125 @@
+Title: BlazingSaddles
+ReleaseYear: 1974
+Format: VHS
+Stars: MelBrooks, ClevonLittle, HarveyKorman, GeneWilder, SlimPickens, MadelineKahn
+
+Title: Casablanca
+ReleaseYear: 1942
+Format: DVD
+Stars: HumphreyBogart, IngridBergman, ClaudeRains, PeterLorre
+
+Title: Charade
+ReleaseYear: 1953
+Format: DVD
+Stars: AudreyHepburn, CaryGrant, WalterMatthau, JamesCoburn, GeorgeKennedy
+
+Title: CoolHandLuke
+ReleaseYear: 1967
+Format: VHS
+Stars: PaulNewman, GeorgeKennedy, StrotherMartin
+
+Title: ButchCassidyandtheSundanceKid
+ReleaseYear: 1969
+Format: VHS
+Stars: PaulNewman, RobertRedford, KatherineRoss
+
+Title: TheSting
+ReleaseYear: 1973
+Format: DVD
+Stars: RobertRedford, PaulNewman, RobertShaw, CharlesDurning
+
+Title: TheMuppetMovie
+ReleaseYear: 1979
+Format: DVD
+Stars: JimHenson, FrankOz, DaveGeolz, MelBrooks, JamesCoburn, CharlesDurning, AustinPendleton
+
+Title: GetShorty 
+ReleaseYear: 1995
+Format: DVD
+Stars: JohnTravolta, DannyDeVito, RenneRusso, GeneHackman, DennisFarina
+
+Title: MyCousinVinny
+ReleaseYear: 1992
+Format: DVD
+Stars: JoePesci, MarrisaTomei, FredGwynne, AustinPendleton, LaneSmith, RalphMacchio
+
+Title: Gladiator
+ReleaseYear: 2000
+Format: Blu-Ray
+Stars: RussellCrowe, JoaquinPhoenix, ConnieNielson
+
+Title: StarWars
+ReleaseYear: 1977
+Format: Blu-Ray
+Stars: HarrisonFord, MarkHamill, CarrieFisher, AlecGuinness, JamesEarlJones
+
+Title: RaidersoftheLostArk
+ReleaseYear: 1981
+Format: DVD
+Stars: HarrisonFord, KarenAllen
+
+Title: Serenity
+ReleaseYear: 2005
+Format: Blu-Ray
+Stars: NathanFillion, AlanTudyk, AdamBaldwin, RonGlass, JewelStaite, GinaTorres, MorenaBaccarin, SeanMaher, SummerGlau, ChiwetelEjiofor
+
+Title: Hooisers
+ReleaseYear: 1986
+Format: VHS
+Stars: GeneHackman, BarbaraHershey, DennisHopper
+
+Title: WarGames
+ReleaseYear: 1983
+Format: VHS
+Stars: MatthewBroderick, AllySheedy, DabneyColeman, JohnWood, BarryCorbin
+
+Title: Spaceballs
+ReleaseYear: 1987
+Format: DVD
+Stars: BillPullman, JohnCandy, MelBrooks, RickMoranis, DaphneZuniga, JoanRivers
+
+Title: YoungFrankenstein
+ReleaseYear: 1974
+Format: VHS
+Stars: GeneWilder, KennethMars, TerriGarr, GeneHackman, PeterBoyle
+
+Title: RealGenius
+ReleaseYear: 1985
+Format: VHS
+Stars: ValKilmer, GabeJarret, MichelleMeyrink, WilliamAtherton
+
+Title: TopGun
+ReleaseYear: 1986
+Format: DVD
+Stars: TomCruise, KellyMcGillis, ValKilmer, AnthonyEdwards, TomSkerritt
+
+Title: MASH
+ReleaseYear: 1970 
+Format: DVD
+Stars: DonaldSutherland, ElliotGould, TomSkerritt, SallyKellerman, RobertDuvall
+
+Title: TheRussiansAreComing, TheRussiansAreComing
+ReleaseYear: 1966
+Format: VHS
+Stars: CarlReiner, EvaMarieSaint, AlanArkin, BrianKeith
+
+Title: Jaws
+ReleaseYear: 1975 
+Format: DVD
+Stars: RoyScheider, RobertShaw, RichardDreyfuss, LorraineGary 
+
+Title: 2001: A SpaceOdyssey
+ReleaseYear: 1968
+Format: DVD
+Stars: KeirDullea, GaryLockwood, WilliamSylvester, DouglasRain
+
+Title: Harvey
+ReleaseYear: 1950 
+Format: DVD
+Stars: JamesStewart, JosephineHull, PeggyDow, CharlesDrake
+
+Title: KnockedUp
+ReleaseYear: 2007
+Format: Blu-Ray
+Stars: SethRogen, KatherineHeigl, PaulRudd, LeslieMann
+
