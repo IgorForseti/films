@@ -12,7 +12,7 @@
         <?php endif?>
 
         <?php if ($data['current_page']  < 5) : ?>
-            <?php for ($i = 2;  ($i <= 5); $i++) : ?>
+            <?php for ($i = 2; $i <= 5; $i++) : ?>
             <li class="page-item <?php if($data['current_page'] == $i) echo "active"?>">
                 <a class="page-link" href="/?page=<?= $i . "\">" . $i?></a></li>
             <?php endfor;?>
@@ -22,7 +22,7 @@
                 <a class="page-link" href="/?page=<?= $i . "\">" . $i?></a></li>
             <?php endfor;?>
         <?php else : ?>
-            <?php for ($i = $data['current_page']-2;   $i <= $data['current_page']+2; $i++) : ?>
+            <?php for ($i = $data['current_page']-2; $i <= $data['current_page']+2; $i++) : ?>
             <li class="page-item <?php if($data['current_page'] == $i) echo "active"?>">
                 <a class="page-link" href="/?page=<?= $i . "\">" . $i?></a></li>
             <?php endfor;?>
@@ -38,12 +38,11 @@
         <?php endif?>
     </ul>
     <?php else:?>
-    <ul>
+    <ul class="pagination">
         <?php if ($data['current_page'] > 1):?>
         <li class="page-item"><a class="page-link" href="/?page=<?= $data['current_page'] - 1?>">Prev</a></li>
         <?php endif?>
-
-        <?php for ($i = 1; $i++; $i < $data['count_page']):?>
+        <?php for ($i = 1; $i <= $data['count_page']; $i++):?>
             <li class="page-item <?php if($data['current_page'] == $i) echo "active"?>">
                 <a class="page-link" href="/?page=<?= $i . "\">" . $i?></a></li>
         <?php endfor;?>

@@ -5,7 +5,7 @@
         <?php else :?>"Film name":
         <?php endif;?>ничего не найдено</p>
     <?php else:?>
-        <p class="text-center alert-info">Найдено <?= $data['all_search'] ?> совпадений по запросу<b>"  <?= $data['search']['q']?>"</b> в категории
+        <p class="text-center alert-info">Найдено по запросу <b>"<?= $data['search']['q']?>"</b> в категории
             <?php if ($data['search']['radio'] == 'stars'):?>Stars
             <?php else :?>"<b>Film name</b>":
             <?php endif;?>
@@ -37,8 +37,5 @@
             <?php endforeach; ?>
             </tbody>
         </table>
-        <?php if ($data['count_page'] > 1):?>
-        <?php require VIEW ."pagination.php"?>
-        <?php endif; ?>
     <?php endif?>
 </div>

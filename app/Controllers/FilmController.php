@@ -63,30 +63,15 @@ class FilmController extends Controller
     {
         $title = 'Search for a movie by';
         $search = $_GET;
-
-        $current_page = isset($_GET['page']) ?: 1;
         $search['q'] = (htmlspecialchars($search['q'], ENT_QUOTES));
         $model = new Film();
-        $res = $model->findLike($search['radio'], htmlspecialchars($search['q'], ENT_QUOTES));
-        $all_search = count($res);
+        $res = $model->findLike($search['radio'], $search['q']);
+
         if (empty($res)) {
             return compact('title', 'search');
         }
 
-        $count_line = 2; // Число записей на странице
-        $count_page = intval((count($res) - 1) / $count_line) + 1; //Всего страниц
-
-        if ($count_page < $current_page) {
-            http_response_code(404);
-            include VIEW . '/404.php';
-            exit;
-        }
-
-        if ($count_page > 1) {
-            $res = $model->pagination($res, $count_line, $current_page);
-        }
-
-        return compact('res', 'title', 'current_page', 'count_page', 'search', 'all_search');
+        return compact('res', 'title', 'search');
     }
 
     public function importList()
