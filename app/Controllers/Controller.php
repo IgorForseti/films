@@ -19,7 +19,6 @@ abstract class Controller
     {
         $this->route = $route;
         $this->view = $route['action'];
-//        include VIEW . $route['controller'] . "/".$this->view . ".php";
         $this->layout = $layout ? LAYOUTS . "$layout.php" : LAYOUTS . "default.php";
     }
 

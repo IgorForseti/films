@@ -1,41 +1,41 @@
-Title: BlazingSaddles2
+Title: Blazing Saddles
 ReleaseYear: 1974
 Format: VHS
-Stars: MelBrooks, ClevonLittle, HarveyKorman, GeneWilder, SlimPickens, MadelineKahn
+Stars: Mel Brooks, Mel BROOKS
 
 Titlde: Casablanca
 ReleaseYear: 1942
 Format: DVD
-Stars: HumphreyBogart, IngridBergman, ClaudeRains, PeterLorre
+Stars: Humphrey Bogart, Ingrid Bergman, Claude Rains, Peter Lorre
 
-Title: Casablanca3
+Title: Casablanca
 ReleaseYear: 1942
-Stars: HumphreyBogart, IngridBergman, ClaudeRains, PeterLorre
+Stars: Humphrey Bogart, Ingrid Bergman, Claude Rains, Peter Lorre
 
 dsdsds
 
-Title: Casablanca4
+Title: Casablanca
 ReleaseYear: 1942
 Format: 
-Stars: HumphreyBogart, IngridBergman, ClaudeRains, PeterLorre
+Stars: Humphrey Bogart, Ingrid Bergman, Claude Rains, Peter Lorre
 
-Title: BlazingSaddles5
+Title: BlazingSaddles
 ReleaseYear: 19741
 Format: VHS
-Stars: MelBrooks, ClevonLittle, HarveyKorman, GeneWilder, SlimPickens, MadelineKahn
+Stars: Mel Brooks, Clevon Little, Harvey Korman, Gene Wilder, Slim Pickens, Madeline Kahn
 
-Title: BlazingSaddles6
+Title: BlazingSaddles
 ReleaseYear: 19d4
 Format: VHS
-Stars: MelBrooks, ClevonLittle, HarveyKorman, GeneWilder, SlimPickens, MadelineKahn
+Stars: Mel Brooks, Clevon Little, Harvey Korman, Gene Wilder, Slim Pickens, Madeline Kahn
 
 
-Title: BlazingSaddles7
+Title: BlazingSaddles
 ReleaseYear: 19 4
 Format: VHS
-Stars: MelBrooks, ClevonLittle, HarveyKorman, GeneWilder, SlimPickens, MadelineKahn
+Stars: Mel Brooks, Clevon Little, Harvey Korman, Gene Wilder, Slim Pickens, Madeline Kahn
 
-Title: BlazingSaddles8
+Title: BlazingSaddles
 ReleaseYear: 19-4
 Format: VHS
-Stars: MelBrooks, ClevonLittle, HarveyKorman, GeneWilder, SlimPickens, MadelineKahn
+Stars: Mel Brooks, Clevon Little, Harvey Korman, Gene Wilder, Slim Pickens, Madeline Kahn

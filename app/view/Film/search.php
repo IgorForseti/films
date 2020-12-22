@@ -1,11 +1,11 @@
 <div class="content">
-    <?php if (empty($data['res'])):?> По вашему запросу "
+    <?php if (empty($data['res'])):?> <p class="text-center alert-danger"> По вашему запросу "
         <?= $data['search']['q']?>" в категории
         <?php if ($data['search']['radio'] == 'start'):?>Stars
         <?php else :?>"Film name":
         <?php endif;?>ничего не найдено</p>
     <?php else:?>
-        <p class="text-center">Найдено по запросу <b>"<?= $data['search']['q']?>"</b> в категории
+        <p class="text-center alert-info">Найдено <?= $data['all_search'] ?> совпадений по запросу<b>"  <?= $data['search']['q']?>"</b> в категории
             <?php if ($data['search']['radio'] == 'stars'):?>Stars
             <?php else :?>"<b>Film name</b>":
             <?php endif;?>
@@ -34,10 +34,11 @@
                         </form>
                     </td>
                 </tr>
-
             <?php endforeach; ?>
-
             </tbody>
         </table>
+        <?php if ($data['count_page'] > 1):?>
+        <?php require VIEW ."pagination.php"?>
+        <?php endif; ?>
     <?php endif?>
 </div>

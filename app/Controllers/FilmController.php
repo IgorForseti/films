@@ -9,17 +9,42 @@
 namespace app\Controllers;
 
 use app\Models\Film;
+use app\Models\Model;
+
 
 class FilmController extends Controller
 {
 
     public function index()
     {
+        if (isset($_GET['page']) && ($_GET['page'] == 1 || $_GET['page'] == 0)) {
+                header("Location: /");
+                exit;
+        }
+
+        $current_page = isset($_GET['page']) ?$_GET['page'] : 1;
         $title = "List Films";
         $model = new Film();
-        $res = $model->findAll();
+        $res = $model->findAll() ;
 
-        return compact('res', 'title');
+        if (empty($res)) {
+            return compact('title');
+        }
+
+        $count_line = 2; // Число записей на странице
+        $count_page = intval((count($res) - 1) / $count_line) + 1; //Всего страниц
+
+        if ($count_page < $current_page) {
+            http_response_code(404);
+            include VIEW . '/404.php';
+            exit;
+        }
+
+        if ($count_page > 1) {
+            $res = $model->pagination($res, $count_line, $current_page);
+        }
+
+        return compact('res', 'title', 'current_page', 'count_page');
     }
 
     public function deleteFilm()
@@ -38,17 +63,35 @@ class FilmController extends Controller
     {
         $title = 'Search for a movie by';
         $search = $_GET;
-        $model = new Film();
-        $res = $model->findLike($search['radio'], $search['q']);
 
-        return compact('res', 'search', 'title');
+        $current_page = isset($_GET['page']) ?: 1;
+        $search['q'] = (htmlspecialchars($search['q'], ENT_QUOTES));
+        $model = new Film();
+        $res = $model->findLike($search['radio'], htmlspecialchars($search['q'], ENT_QUOTES));
+        $all_search = count($res);
+        if (empty($res)) {
+            return compact('title', 'search');
+        }
+
+        $count_line = 2; // Число записей на странице
+        $count_page = intval((count($res) - 1) / $count_line) + 1; //Всего страниц
+
+        if ($count_page < $current_page) {
+            http_response_code(404);
+            include VIEW . '/404.php';
+            exit;
+        }
+
+        if ($count_page > 1) {
+            $res = $model->pagination($res, $count_line, $current_page);
+        }
+
+        return compact('res', 'title', 'current_page', 'count_page', 'search', 'all_search');
     }
 
     public function importList()
     {
         $title = "Import list";
-        $fields = "title, release_year, format, stars";
-
         if (empty($_FILES)) {
             return compact('title');
         }
@@ -58,47 +101,64 @@ class FilmController extends Controller
         if (empty($films)) {
             return false;
         }
-
-        $model = new Film();
-
         foreach ($films as $film) {
-            $res = $model->create($fields, array_values($film));
+            $this->addFilm($film);
         }
 
-        return compact('res', 'title');
+        return compact( 'title');
     }
 
     public function filmDetails()
     {
+        $stars = [];
         $title = "Films details";
         $id = $_GET;
         $model = new Film();
         $res = $model->findOne($id['id']);
+        $res[0]['stars'] = explode(",", $res[0]['stars']);
+
+        foreach ($res[0]['stars'] as $key => $val) {
+            $stars[$val] = str_replace(" ", "+", trim($val));
+        }
+
+        $res[0]['stars'] = $stars;
 
         return compact('res', 'title');
     }
 
-    public function addFilm()
+    public function addFilm($importFilm = null)
     {
+        $Film = $importFilm ?: $_POST;
         $title = "Add new film";
+        $formats = Film::getFormats();
 
-        if (empty($_POST)) {
-            return false;
+        if (empty($Film)) {
+            return compact('title', 'formats');
         }
-
         $model = new Film();
-        $values = array_values($_POST);
-        $fields = array_keys($_POST);
-        $res = $model->check($fields, $values);
+        $values = Model::replaceSpecialChar($Film);
+        $values['stars'] = $model->ucwordsStars($values['stars']);
+        $fields = array_keys($Film);
+
+        $res = $model->check($fields, array_values($values));
 
         if (!empty($res)) {
             $error = "Такой фильм уже есть в базе";
             return compact('title', 'error');
         }
 
+        $validate = $model->validate($values);
+
+        if (!empty($validate)) {
+            $error = $validate;
+            return compact('title', 'error', 'formats');
+        }
+
         $fields = implode(',', $fields);
+        $values = array_values($values);
+
         $model->create($fields, $values);
         $success = "Фильм успешно добавлен";
-        return compact('title', 'success');
+        return compact('title', 'success', 'formats');
     }
 }

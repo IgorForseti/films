@@ -19,7 +19,12 @@
     </div>
     <div class="form-group">
         <label for="format">Format</label>
-        <input type="text" class="form-control" placeholder="For example: VHS, DVD, Blu-Ray ets." name="format" id="format" required>
+        <select  class="form-control" name="format" id="format" required>
+            <option selected disabled value=''>Select format</option>
+            <option>DVD</option>
+            <option>VHS</option>
+            <option>Blu-Ray</option>
+        </select>
     </div>
     <div class="form-group">
         <label for="stars">Stars</label>

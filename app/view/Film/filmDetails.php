@@ -7,7 +7,7 @@
             <th scope="col">Name</th>
             <th scope="col">Release year</th>
             <th scope="col">Format</th>
-            <th scope="col">Start</th>
+            <th scope="col">Stars</th>
             <th scope="col">Delete</th>
         </tr>
         </thead>
@@ -18,10 +18,9 @@
                 <td><?= $value['title'] ?></td>
                 <td><?= $value['release_year'] ?></td>
                 <td><?= $value['format'] ?></td>
-                <td><?php $stars = explode(",", $value['stars']);?>
-                    <?php foreach ($stars as $key => $s) :?>
-                        <a href="search?radio=stars&q=<?= trim($s)?>"><?= $s ?></a>
-                        <?php if ($key != count($stars)) echo ", "?>
+                <td><?php $i=0; foreach ($value['stars'] as $stars => $link) :?>
+                        <a href="search?radio=stars&q=<?= $link ?>"><?= $stars ?></a>
+                        <?php $i++; if ($i != count($value['stars'])) echo ", "?>
                     <?php endforeach;?>
                 </td>
                 <td>

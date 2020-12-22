@@ -29,8 +29,10 @@
         </tbody>
     </table>
     <?php if (empty($data['res'])) :?>
-        <div class="col-3 m-auto pe-auto">
-            <p class="text-center alert-info" >No films added</p>
-        </div>
+    <div class="col-3 m-auto pe-auto">
+        <p class="text-center alert-info" >No films added</p>
+    </div>
+    <?php elseif ($data['count_page'] > 1):?>
+        <?php require VIEW ."pagination.php"?>
     <?php endif; ?>
 </div>

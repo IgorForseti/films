@@ -66,4 +66,21 @@ abstract class Model
         $sql = "SELECT * FROM $this->table WHERE $field LIKE ?";
         return $this->pdo->query($sql, [ '%'.$q.'%']);
     }
+
+    public static function replaceSpecialChar($data) {
+        foreach ($data as &$d) {
+            $d = htmlspecialchars($d, ENT_QUOTES);
+        }
+        return $data;
+    }
+
+    public function pagination($data, $count_line, $current_page) {
+        $result = [];
+        foreach ($data as $key => $val) {
+            if ($key >= $count_line * ($current_page - 1) && $key < $count_line * $current_page) {
+                $result[$key] = $val;
+            }
+        }
+        return $result;
+    }
 }

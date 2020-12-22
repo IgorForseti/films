@@ -56,9 +56,7 @@ class  Router
             if (class_exists($controller)) {
                 $cObj = new $controller(self::$route);
                 $action = self::$route['action'];
-//                $formValue = self::getValueForm();
                 if (method_exists($cObj, self::$route['action'])) {
-//                    $data = $cObj->$action($formValue);
                     if ($action == 'deleteFilm') {
                         $cObj->$action();
                         return;
@@ -74,26 +72,13 @@ class  Router
             }
 
         } else {
-            include 'view/404.php';
+            http_response_code(404);
+            include VIEW.'/404.php';
         }
     }
 
     public static function upperCamelCase($name) {
         $name = str_replace(" ", "", ucwords(str_replace("-", " ", $name)));
         return $name;
-    }
-
-    private static function getValueForm() {
-        if (!empty($_GET)) {
-            $value = $_GET ?: null;
-        }elseif(!empty($_POST['id'])){
-//            var_dump($_POST);
-            $value = $_POST['id'];
-        } else {
-            $value = null;
-        }
-//        var_dump($value);
-//        var_dump($_GET);
-        return $value;
     }
 }

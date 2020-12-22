@@ -1,125 +1,125 @@
-Title: BlazingSaddles
+Title: Blazing Saddles
 ReleaseYear: 1974
 Format: VHS
-Stars: MelBrooks, ClevonLittle, HarveyKorman, GeneWilder, SlimPickens, MadelineKahn
+Stars: Mel Brooks, Clevon Little, Harvey Korman, Gene Wilder, Slim Pickens, Madeline Kahn
 
 Title: Casablanca
 ReleaseYear: 1942
 Format: DVD
-Stars: HumphreyBogart, IngridBergman, ClaudeRains, PeterLorre
+Stars: Humphrey Bogart, Ingrid Bergman, Claude Rains, Peter Lorre
 
 Title: Charade
 ReleaseYear: 1953
 Format: DVD
-Stars: AudreyHepburn, CaryGrant, WalterMatthau, JamesCoburn, GeorgeKennedy
+Stars: Audrey Hepburn, Cary Grant, Walter Matthau, James Coburn, George Kennedy
 
-Title: CoolHandLuke
+Title: Cool HandLuke
 ReleaseYear: 1967
 Format: VHS
-Stars: PaulNewman, GeorgeKennedy, StrotherMartin
+Stars: Paul Newman, George Kennedy, Strother Martin
 
-Title: ButchCassidyandtheSundanceKid
+Title: Butch Cassidyandthe Sundance Kid
 ReleaseYear: 1969
 Format: VHS
-Stars: PaulNewman, RobertRedford, KatherineRoss
+Stars: Paul Newman, Robert Redford, Katherine Ross
 
-Title: TheSting
+Title: The Sting
 ReleaseYear: 1973
 Format: DVD
-Stars: RobertRedford, PaulNewman, RobertShaw, CharlesDurning
+Stars: Robert Redford, Paul Newman, Robert Shaw, Charles Durning
 
-Title: TheMuppetMovie
+Title: The Muppet Movie
 ReleaseYear: 1979
 Format: DVD
-Stars: JimHenson, FrankOz, DaveGeolz, MelBrooks, JamesCoburn, CharlesDurning, AustinPendleton
+Stars: Jim Henson, Frank Oz, Dave Geolz, Mel Brooks, James Coburn, Charles Durning, Austin Pendleton
 
-Title: GetShorty 
+Title: Get Shorty 
 ReleaseYear: 1995
 Format: DVD
-Stars: JohnTravolta, DannyDeVito, RenneRusso, GeneHackman, DennisFarina
+Stars: John Travolta, Danny DeVito, Renne Russo, Gene Hackman, Dennis Farina
 
-Title: MyCousinVinny
+Title: My Cousin Vinny
 ReleaseYear: 1992
 Format: DVD
-Stars: JoePesci, MarrisaTomei, FredGwynne, AustinPendleton, LaneSmith, RalphMacchio
+Stars: Joe Pesci, Marrisa Tomei, Fred Gwynne, Austin Pendleton, Lane Smith, Ralph Macchio
 
 Title: Gladiator
 ReleaseYear: 2000
 Format: Blu-Ray
-Stars: RussellCrowe, JoaquinPhoenix, ConnieNielson
+Stars: Russell Crowe, Joaquin Phoenix, Connie Nielson
 
-Title: StarWars
+Title: Star Wars
 ReleaseYear: 1977
 Format: Blu-Ray
-Stars: HarrisonFord, MarkHamill, CarrieFisher, AlecGuinness, JamesEarlJones
+Stars: Harrison Ford, Mark Hamill, Carrie Fisher, Alec Guinness, James Earl Jones
 
-Title: RaidersoftheLostArk
+Title: Raidersofthe Lost Ark
 ReleaseYear: 1981
 Format: DVD
-Stars: HarrisonFord, KarenAllen
+Stars: Harrison Ford, Karen Allen
 
 Title: Serenity
 ReleaseYear: 2005
 Format: Blu-Ray
-Stars: NathanFillion, AlanTudyk, AdamBaldwin, RonGlass, JewelStaite, GinaTorres, MorenaBaccarin, SeanMaher, SummerGlau, ChiwetelEjiofor
+Stars: Nathan Fillion, Alan Tudyk, Adam Baldwin, Ron Glass, Jewel Staite, Gina Torres, Morena Baccarin, Sean Maher, Summer Glau, Chiwetel Ejiofor
 
 Title: Hooisers
 ReleaseYear: 1986
 Format: VHS
-Stars: GeneHackman, BarbaraHershey, DennisHopper
+Stars: Gene Hackman, Barbara Hershey, Dennis Hopper
 
-Title: WarGames
+Title: War Games
 ReleaseYear: 1983
 Format: VHS
-Stars: MatthewBroderick, AllySheedy, DabneyColeman, JohnWood, BarryCorbin
+Stars: Matthew Broderick, Ally Sheedy, Dabney Coleman, John Wood, Barry Corbin
 
 Title: Spaceballs
 ReleaseYear: 1987
 Format: DVD
-Stars: BillPullman, JohnCandy, MelBrooks, RickMoranis, DaphneZuniga, JoanRivers
+Stars: Bill Pullman, John Candy, Mel Brooks, Rick Moranis, Daphne Zuniga, Joan Rivers
 
-Title: YoungFrankenstein
+Title: Young Frankenstein
 ReleaseYear: 1974
 Format: VHS
-Stars: GeneWilder, KennethMars, TerriGarr, GeneHackman, PeterBoyle
+Stars: Gene Wilder, Kenneth Mars, Terri Garr, Gene Hackman, Peter Boyle
 
-Title: RealGenius
+Title: Real Genius
 ReleaseYear: 1985
 Format: VHS
-Stars: ValKilmer, GabeJarret, MichelleMeyrink, WilliamAtherton
+Stars: Val Kilmer, Gabe Jarret, Michelle Meyrink, William Atherton
 
-Title: TopGun
+Title: Top Gun
 ReleaseYear: 1986
 Format: DVD
-Stars: TomCruise, KellyMcGillis, ValKilmer, AnthonyEdwards, TomSkerritt
+Stars: Tom Cruise, Kelly Mc Gillis, Val Kilmer, Anthony Edwards, Tom Skerritt
 
 Title: MASH
 ReleaseYear: 1970 
 Format: DVD
-Stars: DonaldSutherland, ElliotGould, TomSkerritt, SallyKellerman, RobertDuvall
+Stars: Donald Sutherland, Elliot Gould, Tom Skerritt, Sally Kellerman, Robert Duvall
 
-Title: TheRussiansAreComing, TheRussiansAreComing
+Title: The Russians Are Coming, The Russians Are Coming
 ReleaseYear: 1966
 Format: VHS
-Stars: CarlReiner, EvaMarieSaint, AlanArkin, BrianKeith
+Stars: Carl Reiner, Eva Marie Saint, Alan Arkin, Brian Keith
 
 Title: Jaws
 ReleaseYear: 1975 
 Format: DVD
-Stars: RoyScheider, RobertShaw, RichardDreyfuss, LorraineGary 
+Stars: Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Gary 
 
-Title: 2001: A SpaceOdyssey
+Title: 2001: A Space Odyssey
 ReleaseYear: 1968
 Format: DVD
-Stars: KeirDullea, GaryLockwood, WilliamSylvester, DouglasRain
+Stars: Keir Dullea, Gary Lockwood, William Sylvester, Douglas Rain
 
 Title: Harvey
 ReleaseYear: 1950 
 Format: DVD
-Stars: JamesStewart, JosephineHull, PeggyDow, CharlesDrake
+Stars: James Stewart, Josephine Hull, Peggy Dow, Charles Drake
 
-Title: KnockedUp
+Title: Knocked Up
 ReleaseYear: 2007
 Format: Blu-Ray
-Stars: SethRogen, KatherineHeigl, PaulRudd, LeslieMann
+Stars: Seth Rogen, Katherine Heigl, Paul Rudd, Leslie Mann
 
